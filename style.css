@@ -76,6 +76,12 @@ body {
 }
 
 .feature-item {
+  width: 278px;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
