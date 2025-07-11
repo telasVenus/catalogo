@@ -200,7 +200,7 @@ body {
 }
 
 .products-container {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
