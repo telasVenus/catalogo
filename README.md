@@ -1,3 +1,3 @@
 # catalogo
 
-Catálogo da empresa Telas Vênus
+Catálogo de produtos da empresa Telas Vênus
