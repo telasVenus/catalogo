@@ -501,6 +501,10 @@ body {
   .benefits-container p {
     font-size: 1rem;
   }
+
+  .footer-section .contact-info {
+    display: block;
+  }
 }
 
 /* Floating WhatsApp Button */
