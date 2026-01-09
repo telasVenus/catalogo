@@ -9,13 +9,74 @@ body {
   line-height: 1.6;
   color: #333;
   overflow-x: hidden;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+/* Promotion Section */
+
+.promotion {
+  background-color: #0f3460;
+  color: white;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 3rem;
+  padding-right: 0;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.promotion-text {
+  flex: 1;
+  z-index: 2;
+  position: relative;
+  text-align: left;
+}
+
+.promotion-p-1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.promotion-p-2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.promotion-p-3 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.promotion-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.promotion-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left center;
 }
 
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
   color: white;
-  min-height: 100vh; /* altura início tela */
+  min-height: 50rem; /* altura início tela */
   display: flex;
   align-items: center;
   position: relative;
