@@ -163,10 +163,16 @@ body {
 }
 
 .cta-container {
-  display: flex;
+  /* display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  animation: fadeInUp 1s ease-out 0.6s both;
+  justify-content: space-between;
+  animation: fadeInUp 1s ease-out 0.6s both; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1s ease-out 0.4s both;
 }
 
 .btn-primary {
@@ -184,6 +190,7 @@ body {
   gap: 0.5rem;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+  justify-content: center;
 }
 
 .btn-primary:hover {
@@ -205,6 +212,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   transition: all 0.3s ease;
+  justify-content: center;
 }
 
 .btn-secondary:hover {
