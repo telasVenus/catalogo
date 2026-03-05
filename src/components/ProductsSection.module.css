@@ -114,4 +114,8 @@
     grid-template-columns: 1fr;
     padding: 0 15px;
   }
+
+  .productCard {
+    max-width: 80vw;
+  }
 }

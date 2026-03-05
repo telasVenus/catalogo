@@ -128,9 +128,18 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
+  .hero {
+    height: fit-content;
+  }
+
   .iconeTelasVenus {
+    margin-top: -10rem;
     height: 80px;
+  }
+
+  .iconeTelasVenusPalavras {
+    max-width: 100px;
   }
 
   .heroFeatures {
