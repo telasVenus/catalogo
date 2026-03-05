@@ -23,12 +23,12 @@ export default function HeroSection() {
         <div className={styles.heroContent}>
           <img
             className={styles.iconeTelasVenus}
-            src="/faviconBranco.svg"
+            src="public/faviconBranco.svg"
             alt="Logo Telas Vênus"
           />
           <img
             className={styles.iconeTelasVenusPalavras}
-            src="/telasVenusBranco.svg"
+            src="public/telasVenusBranco.svg"
             alt="Telas Vênus"
           />
           <p className={styles.subtitle}>
