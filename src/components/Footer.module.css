@@ -1,0 +1,49 @@
+.footer {
+  background: #1a1a2e;
+  color: white;
+  padding: 3rem 2rem 1rem;
+  text-align: center;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footerSection h3 {
+  color: #ffd700;
+  margin-bottom: 1rem;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.contactInfo i {
+  width: 20px;
+}
+
+.footerBottom {
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .contactInfo {
+    display: block;
+    text-align: center;
+  }
+}
