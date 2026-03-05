@@ -128,7 +128,7 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .hero {
     height: fit-content;
   }
