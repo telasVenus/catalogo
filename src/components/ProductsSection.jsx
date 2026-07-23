@@ -3,7 +3,7 @@ import styles from "./ProductsSection.module.css";
 
 function openCatalog() {
   window.open(
-    "https://drive.google.com/file/d/1E1PUkDrif9ILFsHvqvuTALbdH0-cTZ8i/view?usp=sharing",
+    "https://drive.google.com/file/d/1TXneLvl9fgR62N28nvZgnx39W5abpgd1/view?usp=sharing",
     "_blank",
   );
 }
