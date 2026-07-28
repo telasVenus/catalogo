@@ -28,6 +28,6 @@
     font-size: 0.7rem;
     padding: 8px 12px;
     right: 1rem;
-    position: absolute;
+    position: fixed;
   }
 }
