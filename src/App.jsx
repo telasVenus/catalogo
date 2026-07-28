@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import ProductsSection from "./components/ProductsSection";
 import ReviewsAndMap from "./components/ReviewsAndMap";
+import GoogleReviewFloat from "./components/GoogleReviewFloat";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <CTASection />
       <ReviewsAndMap />
       <Footer />
+      <GoogleReviewFloat />
       <WhatsAppFloat />
     </>
   );
