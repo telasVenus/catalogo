@@ -1,0 +1,32 @@
+.googleReviewFloat {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: #3088FF;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.googleReviewFloat:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(34, 82, 116, 0.6);
+}
+
+@media (max-width: 600px) {
+  .googleReviewFloat {
+    font-size: 0.7rem;
+    padding: 8px 12px;
+    right: 1rem;
+    position: absolute;
+  }
+}

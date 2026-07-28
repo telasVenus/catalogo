@@ -2,6 +2,7 @@ import "./App.css";
 import BenefitsSection from "./components/BenefitsSection";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
+import GoogleReviewFloat from "./components/GoogleReviewFloat";
 import HeroSection from "./components/HeroSection";
 import ProductsSection from "./components/ProductsSection";
 import ReviewsAndMap from "./components/ReviewsAndMap";
@@ -16,6 +17,7 @@ function App() {
       <CTASection />
       <ReviewsAndMap />
       <Footer />
+      <GoogleReviewFloat />
       <WhatsAppFloat />
     </>
   );

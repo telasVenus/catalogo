@@ -110,7 +110,7 @@
 }
 
 @media (max-width: 768px) {
-  .productGrid {
+  .productsGrid {
     grid-template-columns: 1fr;
     padding: 0 15px;
   }
