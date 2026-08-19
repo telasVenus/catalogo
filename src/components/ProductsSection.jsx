@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import styles from "./ProductsSection.module.css";
+import { trackCatalog } from '../utils/analytics';
 
 function openCatalog() {
   window.open(

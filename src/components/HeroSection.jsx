@@ -1,4 +1,5 @@
 import styles from "./HeroSection.module.css";
+import { trackWhatsApp, trackCatalog } from '../utils/analytics';
 
 function openWhatsApp() {
   const phone = "5531988353453";

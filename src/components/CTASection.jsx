@@ -1,4 +1,5 @@
 import styles from "./CTASection.module.css";
+import { trackWhatsApp, trackCatalog } from '../utils/analytics';
 
 export default function CTASection() {
   return (

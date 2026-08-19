@@ -1,4 +1,5 @@
 import styles from './WhatsAppFloat.module.css';
+import { trackWhatsApp } from '../utils/analytics';
 
 function openWhatsApp() {
   const phone = "5531988353453"
