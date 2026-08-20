@@ -2,6 +2,7 @@ import styles from "./HeroSection.module.css";
 import { trackWhatsApp, trackCatalog } from '../utils/analytics';
 
 function openWhatsApp() {
+  trackWhatsApp('hero')
   const phone = "5531988353453";
   const message = "Olá! Gostaria de solicitar um orçamento de telas e arames.";
   window.open(
@@ -11,6 +12,7 @@ function openWhatsApp() {
 }
 
 function openCatalog() {
+  trackCatalog('hero')
   window.open(
     "https://drive.google.com/file/d/1TXneLvl9fgR62N28nvZgnx39W5abpgd1/view?usp=sharing",
     "_blank",

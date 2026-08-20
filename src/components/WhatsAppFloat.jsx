@@ -2,6 +2,7 @@ import styles from './WhatsAppFloat.module.css';
 import { trackWhatsApp } from '../utils/analytics';
 
 function openWhatsApp() {
+  trackWhatsApp('float')
   const phone = "5531988353453"
   const message = "Olá! Gostaria de solicitar um orçamento para telas e arames."
   window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, "_blank")

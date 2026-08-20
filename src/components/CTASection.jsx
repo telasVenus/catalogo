@@ -1,6 +1,18 @@
 import styles from "./CTASection.module.css";
 import { trackWhatsApp, trackCatalog } from '../utils/analytics';
 
+function openWhatsApp() {
+  trackWhatsApp('cta')
+  const phone = "5531988353453"
+  const message = "Olá! Gostaria de solicitar um orçamento para telas e arames."
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, "_blank")
+}
+
+function openCatalog() {
+  trackCatalog('cta')
+  window.open("https://drive.google.com/file/d/1E1PUkDrif9ILFsHvqvuTALbdH0-cTZ8i/view?usp=sharing", "_blank")
+}
+
 export default function CTASection() {
   return (
     <section className={styles.ctaSection}>
@@ -24,7 +36,7 @@ export default function CTASection() {
             href="#"
             className={styles.btnWhite}
             onClick={(e) => { e.preventDefault();
-            openWhatsapp() }}
+            openWhatsApp() }}
           >
             <i className="fab fa-whatsapp"></i>
             Falar com Especialista

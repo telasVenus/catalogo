@@ -3,6 +3,7 @@ import styles from "./ProductsSection.module.css";
 import { trackCatalog } from '../utils/analytics';
 
 function openCatalog() {
+  trackCatalog('produto')
   window.open(
     "https://drive.google.com/file/d/1TXneLvl9fgR62N28nvZgnx39W5abpgd1/view?usp=sharing",
     "_blank",
