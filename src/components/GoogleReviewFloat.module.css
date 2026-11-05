@@ -10,10 +10,11 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0;
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
+  transition: padding 0.4s ease, box-shadow 0.3s ease, gap 0.4s ease, transform 0.3s ease;
   font-weight: 600;
   cursor: pointer;
 }
@@ -23,10 +24,27 @@
   box-shadow: 0 8px 25px rgba(34, 82, 116, 0.6);
 }
 
+.label {
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 0.4s ease, opacity 0.3s ease;
+}
+
+.expanded {
+  gap: 0.5rem;
+}
+
+.expanded .label {
+  max-width: 11rem;
+  opacity: 1;
+}
+
 @media (max-width: 600px) {
   .googleReviewFloat {
     font-size: 0.7rem;
-    padding: 8px 12px;
+    padding: 0.5rem 0.75rem;
     right: 1rem;
     position: fixed;
   }

@@ -4,30 +4,48 @@
   right: 1rem;
   background: #25d366;
   color: white;
-  border-radius: 50px;
-  padding: 10px 14px;
+  border-radius: 3.125rem;
+  padding: 0.625rem 0.875rem;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
-  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-  transition: all 0.3s ease;
+  gap: 0;
+  box-shadow: 0 0.25rem 0.938rem rgba(37, 211, 102, 0.4);
+  transition: padding 0.4s ease, box-shadow 0.3s ease, gap 0.4s ease, transform 0.3s ease;
   z-index: 1000;
   cursor: pointer;
 }
 
 .whatsappFloat:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
+  box-shadow: 0 0.5rem 1.563rem rgba(37, 211, 102, 0.6);
+}
+
+.label {
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 0.4s ease, opacity 0.3s ease;
+}
+
+.expanded {
+  gap: 0.5rem;
+}
+
+.expanded .label {
+  max-width: 9.375rem;
+  opacity: 1;
 }
 
 @media (max-width: 600px) {
   .whatsappFloat {
     font-size: 0.7rem;
-    padding: 8px 12px;
+    padding: 0.5rem 0.75rem;
     right: 1rem;
     position: fixed;
+    bottom: 3.5rem;
   }
 }
