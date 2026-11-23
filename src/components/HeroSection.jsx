@@ -1,5 +1,7 @@
 import styles from "./HeroSection.module.css";
 import { trackWhatsApp, trackCatalog } from '../utils/analytics';
+import blackFridayDesktop from "../assets/blackFridayDesktop.svg";
+import blackFridayMobile from "../assets/blackFridayMobile.svg";
 
 function openWhatsApp() {
   trackWhatsApp('hero')
@@ -24,6 +26,14 @@ export default function HeroSection() {
     <section className={styles.hero}>
       <div className={styles.heroContainer}>
         <div className={styles.heroContent}>
+          <picture>
+            <source media="(max-width: 600px)" srcSet={blackFridayMobile}/>
+            <img 
+              className={styles.blackImage}
+              src={blackFridayDesktop}
+              alt="Promoção de Black Friday"
+            />
+          </picture>
           <img
             className={styles.iconeTelasVenus}
             src="./faviconBranco.svg"

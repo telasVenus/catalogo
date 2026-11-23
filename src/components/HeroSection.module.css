@@ -22,6 +22,12 @@
   align-items: center;
 }
 
+.blackImage {
+  display: block;
+  height: auto;
+  margin: -2rem -2rem 0;
+}
+
 .iconeTelasVenus {
   height: 140px;
   display: block;
